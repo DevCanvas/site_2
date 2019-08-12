@@ -1,0 +1,51 @@
+/* Settings */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Raleway Regular";
+	src: url(../fonts/'Raleway (M).ttf');
+}
+
+
+body {
+	background-color: white;
+	font-family: "Raleway Regular";
+	color: #000;
+	list-style: none;
+	text-decoration: none;
+}
+
+/* Header */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #eff0f2;
+	height: 100vh;
+}
+
+.h-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo>img {
+	height: 100%;
+	width: 100%;
+	margin-top:;
+	height: auto;
+	max-width: 100%;
+	width: auto\9; /* IE8 */
+}
